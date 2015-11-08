@@ -1,0 +1,21 @@
+{
+    "name": "mrgrain/api-in-a-box",
+    "description": "Setup for a fast and extensible Lumen based API.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moritz Kornher",
+            "email": "moritz@prefer.co.nz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/lumen-framework": "^5.1",
+        "dingo/api": "^0.10.0",
+        "prettus/l5-repository": "^2.1",
+        "prettus/laravel-validation": "^1.1",
+        "barryvdh/laravel-cors": "^0.7.2",
+        "mrgrain/eloquent-service-injection": "^1.0"
+    }
+}
